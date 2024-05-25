@@ -8,5 +8,5 @@
 #SBATCH --gres=gpu:1
 
 module load anaconda/3.7 
-source /conda/bin/activate /scratch/cai/uqaamar/demo_env
+source /scratch/cai/uqaamar/conda/bin/activate /scratch/cai/uqaamar/demo_env
 python main.py

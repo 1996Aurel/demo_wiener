@@ -7,5 +7,6 @@
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
 
-source /scratch/cai/uqaamar/conda/bin/activate /scratch/cai/uqaamar/demo_env
+module load anaconda/3.7 
+source /conda/bin/activate /scratch/cai/uqaamar/demo_env
 python main.py
